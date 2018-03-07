@@ -35,12 +35,57 @@
 // const name = 'Mo Jackson';
 // console.log(name);
 // name = 'Sara'; <---Not Allowed
-const person = {
-    name: 'John',
-    age: 30
-}
-console.log(person);
-person.name = 'Sara';
+// const person = {
+//     name: 'John',
+//     age: 30
+// }
+// console.log(person);
+// person.name = 'Sara';
 
-console.log(person);
-// Data is changed, object is preserved.
+// console.log(person);
+// // Data is changed, object is preserved.
+// // use const to let others know that a value should and cannot be changed, for preservation purposes
+
+
+/* Data Types
+Primitive Data Types 
+    Strings
+    Number
+    Boolean
+    Null
+    Undefined
+    Symbols (ES6) 
+Reference Data Types
+    Arrays
+    Object Literals
+    Functions
+    Dates
+    Anything Else...
+
+*/
+// Primitive Types
+// String
+const name = 'John Doe';
+// Number
+const age = '45';
+// Boolean
+const hasKids = true;
+// Null
+const car = null;
+// Undefined
+let test;
+// Symbol
+const sym = Symbol();
+
+// Refernce Types - Objects
+// Array
+const hobbies = ['movies', 'music'];
+// Object Literal
+const address = {
+    city: 'Boston',
+    state: 'MA'
+}
+const today = new Date();
+
+console.log(today);
+console.log(typeof today);
